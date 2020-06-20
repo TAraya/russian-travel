@@ -1,0 +1,11 @@
+.footer__link {
+  display: inline;
+  margin-right: 18px;
+  color: white;
+  text-decoration: none;
+  transition: opacity .3s ease-in-out;  
+}
+
+.footer__link:hover {
+  opacity: .7;
+}

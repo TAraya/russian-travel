@@ -1,0 +1,17 @@
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 48px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__container {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer__container {
+    margin: 0 18px;
+  }
+}
