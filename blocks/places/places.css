@@ -1,5 +1,7 @@
+@import url('./__items/places__items.css');
+
 .places {
-  padding: 92px 0 64px;
+  padding: 98px 48px 0;
 }
 
 @media (max-width: 800px) {

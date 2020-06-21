@@ -1,3 +1,4 @@
+@import url('./__container/intro__container.css');
 @import url('./__list-item/intro__list-item.css');
 @import url('./__list-item/intro__list-item-total.css');
 @import url('./__list/intro__list.css');
@@ -5,17 +6,17 @@
 @import url('./__title/intro__title.css');
 
 .intro {
-  padding: 64px 0;
+  padding: 64px 48px 48px;
 }
 
 @media (max-width: 800px) {
   .intro {
-    padding: 60px 0;
+    padding: 60px 24px;
   }
 }
 
 @media (max-width: 425px) {
   .intro {
-    padding: 36px 0;
+    padding: 36px 12px;
   }
 }

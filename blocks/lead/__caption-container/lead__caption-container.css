@@ -1,0 +1,17 @@
+.lead__caption-container {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+@media (max-width: 800px) {
+  .lead__caption-container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__caption-container {
+    padding: 0 16px;
+  }
+}

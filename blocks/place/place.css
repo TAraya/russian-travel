@@ -10,8 +10,11 @@
   grid-template-columns: 460px 1fr;
   grid-template-rows: auto auto;
   grid-column-gap: 40px;
-  grid-row-gap: 48px;
-  padding-bottom: 80px;
+  grid-row-gap: 46px;
+  padding-bottom: 83px;
+  width: 100%;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
