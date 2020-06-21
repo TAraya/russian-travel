@@ -1,0 +1,6 @@
+.header__container {
+  display: flex;
+  align-items: flex-end;
+  max-width: 1184px;
+  margin: 0 auto;
+}

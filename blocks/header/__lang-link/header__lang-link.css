@@ -9,10 +9,6 @@
   transition: opacity .3s ease-in-out;
 }
 
-.header__lang-link:first-of-type {
-  margin-left: auto;
-}
-
 .header__lang-link:hover {
   opacity: .7;
 }

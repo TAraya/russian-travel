@@ -1,15 +1,14 @@
 @import url('./__caption/lead__caption.css');
 @import url('./__image/lead__image.css');
-@import url('./__image-container/lead__image-container.css');
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__title/lead__title.css');
 
 .lead {
-  padding-top: 56px;
+  padding: 28px 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .lead {
-    padding-top: 48px;
+    padding: 20px 0;
   }
 }

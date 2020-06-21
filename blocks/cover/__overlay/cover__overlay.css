@@ -1,8 +1,8 @@
 .cover__overlay {
   display: grid;
-  width: 100%;
   max-width: 1184px;
-  margin: 0 auto;
+  width: calc(100% + 2 * 100px);
+  margin: 0 -100px;
   align-items: center;
   transition: opacity .3s ease-in-out;
   text-decoration: none;
@@ -10,4 +10,25 @@
 
 .cover__overlay:hover {
   opacity: .7;
+}
+
+@media (max-width: 1280px) {
+  .cover__overlay {
+    width: calc(100% + 2 * 48px);
+    margin: 0 -48px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cover__overlay {
+    width: calc(100% + 2 * 24px);
+    margin: 0 -24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__overlay {
+    width: calc(100% + 2 * 16px);
+    margin: 0 -16px;
+  }
 }
