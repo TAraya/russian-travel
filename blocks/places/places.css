@@ -1,17 +1,17 @@
 @import url('./__items/places__items.css');
 
 .places {
-  padding: 98px 48px 0;
+  padding: 96px 48px 0;
 }
 
 @media (max-width: 800px) {
   .places {
-    padding: 88px 0 60;
+    padding: 88px 24px 8px;
   }
 }
 
 @media (max-width: 425px) {
   .places {
-    padding: 64px 0;
+    padding: 64px 0 14px;
   }
 }

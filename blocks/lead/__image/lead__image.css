@@ -4,13 +4,3 @@
   max-width: 984px;
   margin: 0 auto;
 }
-
-@media (max-width: 800px) {
-  .lead__image {
-  }
-}
-
-@media (max-width: 425px) {
-  .lead__image {
-  }
-}
